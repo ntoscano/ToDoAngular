@@ -1,0 +1,11 @@
+<div title="home">
+  <h3>
+    Completed Tasks
+  </h3>
+    <div class="todo">
+        <button ng-click="clear()">Clear Completed</button>
+        <div class="task panel" ng-repeat="task in completed track by $index">
+            <h4>{{task}}</h4>
+        </div>
+    </div>
+</div>

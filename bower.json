@@ -1,0 +1,24 @@
+{
+  "name": "ToDoAngular",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ntoscano/ToDoAngular",
+  "authors": [
+    "ntoscano <Nicolas.Toscano@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.4.7",
+    "angular-sanitize": "~1.4.7",
+    "angular": "~1.4.7",
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "angular-ui-router": "ui-router#~0.2.15"
+  }
+}

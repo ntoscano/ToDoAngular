@@ -1,0 +1,15 @@
+<div title="home">
+    <h3>TODO</h3>
+  <div class="item item-input">
+    <input  type="text"
+            class= "col-xs-12 col-sm-12 col-md-12 col-lg-12 form-control"
+            placeholder="{{task}}" 
+            ng-keypress="insert($event, this)" 
+            ng-model="task">
+  </div>
+    <div class="todo">
+        <div class="task panel" ng-repeat="task in toDoList track by $index" ng-click="remove(task)">
+            <h4>{{task}}</h4>
+        </div>
+    </div>
+</div>
