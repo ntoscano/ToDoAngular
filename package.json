@@ -1,0 +1,23 @@
+{
+  "name": "todoangular",
+  "version": "1.0.0",
+  "description": "init Commit",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntoscano/ToDoAngular.git"
+  },
+  "author": "Nicolas Toscano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ntoscano/ToDoAngular/issues"
+  },
+  "homepage": "https://github.com/ntoscano/ToDoAngular#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
