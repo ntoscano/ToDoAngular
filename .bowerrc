@@ -1,4 +1,4 @@
 {
-  "directory": "bower_components",
+  "directory": "app/bower_components",
   "registry": "https://obscure-woodland-6637.herokuapp.com"
 }
