@@ -7,7 +7,7 @@
       scope: {
         changeState: '='
       },
-      templateUrl: "app/view/navbar.html",
+      templateUrl: "view/navbar.html",
       compile: function(tElement, tAttrs, transclude){
         return{
           pre : function (scope, iElement, iAttrs){
@@ -29,7 +29,7 @@
         insert: '=',
         remove: '='
       },
-      templateUrl: "app/view/todoContainer.html",
+      templateUrl: "view/todoContainer.html",
       compile: function(tElement, tAttrs, transclude){
         return{
           pre : function (scope, iElement, iAttrs){
@@ -51,7 +51,7 @@
         insert: '=',
         remove: '='
       },
-      templateUrl: "app/view/completeContainer.html",
+      templateUrl: "view/completeContainer.html",
       compile: function(tElement, tAttrs, transclude){
         return{
           pre : function (scope, iElement, iAttrs){

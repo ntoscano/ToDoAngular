@@ -5,12 +5,12 @@ app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $ur
   $stateProvider
       .state('home', {
           url: '/home',
-          templateUrl: './app/view/todoContainer.html',
+          templateUrl: './view/todoContainer.html',
           controller: 'listController'
       })
       .state('completed', {
           url: '/completed',
-          templateUrl: './app/view/completeContainer.html',
+          templateUrl: './view/completeContainer.html',
           controller: 'listController'
       })
   $urlRouterProvider.otherwise('/home');
