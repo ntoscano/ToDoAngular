@@ -9,4 +9,4 @@ var server = app.listen(port, function () {
 
   console.log('App listening at http://%s:%s', host, port);
 });
-app.use(express.static(__dirname + '/../../client/'));
+app.use(express.static(__dirname + '/app'));
