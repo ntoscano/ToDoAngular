@@ -5,8 +5,6 @@
    
     $scope.toDoList = JSON.parse(window.localStorage.getItem('toDoList')) || [];
     $scope.completed = JSON.parse(window.localStorage.getItem('completed')) || [];
-    console.log($scope.toDoList);
-    console.log($scope.completed);
     var task = '';
    
     $scope.insert = function(keyEvent, input){
@@ -15,11 +13,13 @@
         task = input.task
         $scope.toDoList.push(task);
         window.localStorage.setItem('toDoList', JSON.stringify($scope.toDoList));
+        var input = document.getElementById("task");
+        console.log(input);
+        input.reset();
       }
     }
 
     $scope.remove = function(x){
-      console.log('asdfasd', x);
       task = x;
       var index = $scope.toDoList.indexOf(task);
       $scope.completed.push($scope.toDoList.splice(index, 1)[0]);
