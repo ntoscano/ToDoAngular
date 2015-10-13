@@ -1,10 +1,10 @@
 .home{
-  margin: 60px 5px 5px 5px;
+  margin: 5% 1% 1% 1%;
 }
 .task{
-  min-height: 20px;
-  margin: 5px;
-  padding: 15px;
+  min-height: 15%;
+  margin: 1%;
+  padding: 3%;
   overflow-y: hidden;
   overflow-x: hidden;
 }

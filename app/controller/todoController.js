@@ -8,7 +8,6 @@
     var task = '';
    
     $scope.insert = function(keyEvent, input){
-      console.log('bla')
       if(keyEvent.which === 13){
         task = input.task
         $scope.toDoList.push(task);
